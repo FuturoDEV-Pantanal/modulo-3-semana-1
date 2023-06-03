@@ -1,4 +1,5 @@
-package introducao;
+
+import introducao.cadastro;
 
 public class Main {
     public static void main(String[] args) {
