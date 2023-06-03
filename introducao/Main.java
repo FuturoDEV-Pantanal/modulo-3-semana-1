@@ -28,18 +28,22 @@ public class Main {
         }
     }
 
+    //Esse metodo serve para efetuar cadastro
     public static Boolean save_cadastro(cadastro c) {
         //...
         System.out.println("salvo no banco de dados");
         return true;
     }
 
+    //Esse metodo server para enviar email
     public static Boolean env_email(String c) {
         //...
         System.out.println("enviando email ...");
         return true;
     }
 
+
+    //Esse metodo serve para checar se é valido
     public static Boolean check(cadastro c) {
 
         Boolean result = false;
