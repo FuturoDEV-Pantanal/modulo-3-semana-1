@@ -7,6 +7,13 @@ import java.sql.SQLException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/*
+ * 
+ * 1 - Validar e entender o proposito da classe.
+ * 2 - Identificar quais artefatos não fazem parte do contexto.
+ * 
+ */
+
 public class Cliente {
 
     private static final String EMAIL_PATTERN =
