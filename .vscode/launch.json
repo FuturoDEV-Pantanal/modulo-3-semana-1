@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exericio_ifs",
+            "request": "launch",
+            "mainClass": "exercicio.exericio_ifs",
+            "projectName": "modulo-3-semana-1_be2c97aa"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "Main.java"
