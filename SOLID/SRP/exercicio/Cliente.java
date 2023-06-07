@@ -57,7 +57,7 @@ public class Cliente {
         return true;
     }
 
-    public Boolean EnviarEmail() {
+    public Boolean ValidarEmail() {
         Matcher matcher = pattern.matcher(Email);
         return matcher.matches();
     }
